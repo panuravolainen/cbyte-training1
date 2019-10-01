@@ -26,9 +26,9 @@ public class ChargeCustomerProfile {
     public static ANetApiResponse run(String apiLoginId, String transactionKey, String customerProfileId,
     		String customerPaymentProfileId, Double amount) {
 
-
+		asdf asdf asdf asdf 
         //Common code to set for all requests
-        ApiOperationBase.setEnvironment(Environment.SANDBOX);
+        ApiOperationBase.setEnvironment(Environment.Testing);
 
         MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
         merchantAuthenticationType.setName(apiLoginId);
