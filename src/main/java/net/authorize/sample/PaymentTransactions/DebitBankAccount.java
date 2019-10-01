@@ -55,7 +55,6 @@ public class DebitBankAccount {
         txnRequest.setPayment(paymentType);
         txnRequest.setPayment(paymentType);
         txnRequest.setPayment(paymentType);
-        txnRequest.setPayment(paymentType);
         txnRequest.setAmount(new BigDecimal(amount).setScale(2, RoundingMode.CEILING));
 
         // Make the API Request
