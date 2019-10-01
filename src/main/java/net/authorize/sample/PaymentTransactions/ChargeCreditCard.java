@@ -27,8 +27,8 @@ public class ChargeCreditCard {
         // Populate the payment data
         PaymentType paymentType = new PaymentType();
         CreditCardType creditCard = new CreditCardType();
-        creditCard.setCardNumber("4242424242424242");
-        creditCard.setExpirationDate("0822");
+        creditCard.setCardNumber("123123123123123");
+        creditCard.setExpirationDate("0121");
         paymentType.setCreditCard(creditCard);
 
         // Set email address (optional)
