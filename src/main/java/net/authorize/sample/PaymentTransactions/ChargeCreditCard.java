@@ -24,11 +24,8 @@ public class ChargeCreditCard {
         merchantAuthenticationType.setName(apiLoginId);
         merchantAuthenticationType.setTransactionKey(transactionKey);
 
-        // Populate the payment data
-        PaymentType paymentType = new PaymentType();
-        CreditCardType creditCard = new CreditCardType();
-        creditCard.setCardNumber("4242424242424242");
-        creditCard.setExpirationDate("0822");
+This is a change done by ME
+
         paymentType.setCreditCard(creditCard);
 
         // Set email address (optional)
