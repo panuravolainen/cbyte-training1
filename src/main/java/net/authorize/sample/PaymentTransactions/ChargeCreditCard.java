@@ -3,6 +3,8 @@ package net.authorize.sample.PaymentTransactions;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+Changes by ME
+
 import net.authorize.Environment;
 import net.authorize.api.contract.v1.*;
 import net.authorize.api.controller.CreateTransactionController;
